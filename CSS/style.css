@@ -1,0 +1,412 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding-right: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.navbar ul li {
+    padding: 10px;
+    margin-right: 5px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.fondoimagen {
+    background-image: url(../IMG/IMG1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fondoimagen h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 130px;
+}
+.fondoimagen p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.frases p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-right: 120px;
+    margin-left: 120px;
+    text-align: center;
+}
+.frases h3 {
+    display: flex;
+    justify-content: right;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.quienessomos {
+    background-image: url(../IMG/img1a.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    font-family: 'Roboto Mono', monospace;
+}
+.quienessomos h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 100px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 100px;
+}
+.quienessomos p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.imagenes {
+    margin-top: 50px;
+}
+
+.piedepagina {
+    background-color: rgb(174, 174, 174);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piedepagina p {
+    color: white;
+    font-size: 20px;
+}
+
+
+.fotofondo {
+    background-image: url(../IMG/img2.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 150px;
+}
+
+.fotofondo3 {
+    background-image: url(../IMG/EQUIPO.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo3 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 150px;
+}
+.fotofondo2 {
+    background-image: url(../IMG/EQUIPO.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 150px;
+}
+.nombreproyecto {
+    background-color: rgb(70, 68, 68);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+
+.fotofondo4 {
+    background-image: url(../IMG/img2.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo4 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 150px;
+}
+
+.proyectos1 {
+    display: grid;
+    grid-template-columns: 1fr 800px;
+    grid-row: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    border: 3px solid black;
+}
+.proyectos2 {
+    background-color: rgba(228, 225, 225, 0.952);
+    text-align: center;
+    height: 400px;
+    padding-top: 30px;
+}
+.proyectos2 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+}
+.proyectos2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+}
+
+.documentacion {
+    background-color: rgba(207, 204, 204, 0.952);
+    text-align: center;
+    height: 400px;
+    padding-top: 30px;
+}
+.documentacion h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+}
+.documentacion p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+}
+.ampliacion {
+    background-color: rgba(168, 168, 168, 0.952);
+    text-align: center;
+    height: 400px;
+    padding-top: 30px;
+}
+.ampliacion h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+}
+.ampliacion p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+}
+.direccion {
+    background-color: rgba(126, 125, 125, 0.952);
+    text-align: center;
+    height: 400px;
+    padding-top: 30px;
+}
+.direccion h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+}
+.direccion p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 20px;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:"hijo"
+                        "hijo1"
+                        "hijo2"
+                        "hijo3"
+                        "hijo4"
+                        "piedepagina";
+}
+.hijo {
+    text-align: center;
+    grid-area: hijo;
+}
+
+.hijo1 {
+    text-align: center;
+    grid-area: hijo1;
+}
+.hijo2 {
+    text-align: center;
+    grid-area: hijo2;
+}
+.hijo3 {
+    text-align: center;
+    grid-area: hijo3;
+}
+.hijo4 {
+    text-align: center;
+    grid-area: hijo4;
+}
+.piedepagina {
+    text-align: center;
+    grid-area: piedepagina;
+}
+
+.fotosarq {  
+    width: 100%;
+    padding-left: 300px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "cesarpelli zahahadid santiagocalatrava"
+                        "nombrec nombrez nombres";
+}
+
+.cesarpelli { grid-area: cesarpelli; 
+    justify-content: center;
+    align-items: center;}
+.zahahadid { grid-area: zahahadid; }
+.santiagocalatrava { grid-area: santiagocalatrava; }
+.nombrec { grid-area: nombrec; }
+.nombrez { grid-area: nombrez; }
+.nombres { grid-area: nombres; }
+
+.container {  display: grid;
+    grid-template-columns: 1.3fr 0.9fr 0.8fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "contacto consulta consulta"
+    "contactotexto nombre apellido"
+    "contactotexto numero numero"
+    "contactotexto email email"
+    "contactotexto envianos-tu-consulta envianos-tu-consulta";
+}
+
+.contacto { grid-area: contacto; }
+.contacto h3 {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.consulta { grid-area: consulta; }
+.consulta h3 {
+    font-size: 50px;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+.nombre { grid-area: nombre; }
+.nombre input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width:80%;
+}
+.apellido { grid-area: apellido; }
+.apellido input {
+    height: 40px;
+    width: 80%;
+}
+.numero { grid-area: numero; }
+.numero input {
+    height: 40px;
+    width: 80%;
+}
+.email { grid-area: email; }
+.email input {
+    height: 40px;
+    width: 80%;
+}
+.envianos-tu-consulta { grid-area: envianos-tu-consulta; }
+.envianos-tu-consulta input {
+    height: 40px;
+    width: 80%;
+}
+.contactotexto { grid-area: contactotexto;}
+.contactotexto ul {
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
