@@ -1,0 +1,22 @@
+.fotofondo3 {
+    background-image: url(../IMG/EQUIPO.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo3 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 150px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}

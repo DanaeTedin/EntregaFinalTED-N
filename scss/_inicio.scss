@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*    ---------Inicio-------- */
+.fotofondo2 {
+    background-image: url(../IMG/IMG1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.fotofondo2 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    color: $colorprimario;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 130px;
+}
+.fotofondo2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: $colorprimario;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.frases p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 100px 120px 40px 120px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.frases h3 {
+    display: flex;
+    justify-content: right;
+    font-size: $parrafo;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.quienessomos {
+    background-image: url(../IMG/img1a.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 50px;
+}
+.card-body1 h5{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    color: $colorprimario;
+}
+.card-body1 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 30px;
+    color:$colorprimario;
+    padding-bottom: 100px;
+}
+.img{
+    margin: 2px;
+    transition: all 2s;
+}
+.img1:hover {
+    transform: scale(1.2);
+}
