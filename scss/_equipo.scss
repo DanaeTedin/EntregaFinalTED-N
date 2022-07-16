@@ -17,6 +17,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 30px;
     text-align: center;
+    padding: map-get($btn , padding );
+    border: map-get($btn , radio );
+    margin: map-get($btn , margen );
 }

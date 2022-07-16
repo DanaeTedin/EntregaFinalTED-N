@@ -7,14 +7,12 @@
 .fotofondo2 {
     background-image: url(../IMG/EQUIPO.jpg);
     background-size: cover;
-    width: 100%;
-    height: 500px;
+    @include sizes(100%, 500px)
 }
 .fotofondo2 h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: $tamanotitulo;
     color: $colorprimario;
     font-family: 'Roboto Mono', monospace;
     padding-top: 150px;
@@ -32,28 +30,26 @@
     margin-top: 30px;
 }
 .hijo {
+    padding: map-get($btn , padding );
+    border: map-get($btn , radio );
+    margin: map-get($btn , margin );
     text-align: center;
     grid-area: hijo;
     margin-top: 30px;
 }
 
 .hijo1 {
-    text-align: center;
-    grid-area: hijo1;
-    margin-top: 30px;
+    @extend .hijo
 }
+
 .hijo2 {
-    text-align: center;
-    grid-area: hijo2;
-    margin-top: 30px;
+    @extend .hijo
 }
+
 .hijo3 {
-    text-align: center;
-    grid-area: hijo3;
-    margin-top: 30px;
+    @extend .hijo
 }
+
 .hijo4 {
-    text-align: center;
-    grid-area: hijo4;
-    margin-top: 30px;
+    @extend .hijo
 }

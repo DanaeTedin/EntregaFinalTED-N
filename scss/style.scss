@@ -2,6 +2,16 @@ $colorprimario: #fff;
 $colorsecundario: rgb(174, 174, 174);
 $tamañotitulo: 80px;
 $parrafo: 30px;
+$btn: (
+    padding:5px 10px,
+    border:0,
+    radio: 10px,
+    margin: 20px,
+);
+@mixin sizes ($ancho , $alto) {
+    width: $ancho
+    height $alto
+}
 
 @import "_contacto.scss";
 @import "_header.scss";
