@@ -1,5 +1,5 @@
 .fotofondo3 {
-    background-image: url(../IMG/EQUIPO.jpg);
+    background-image: url(../IMG/IMG1.jpg);
     background-size: cover;
     width: 100%;
     height: 500px;
@@ -8,10 +8,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 80px;
+    font-size: 100px;
     color: white;
     font-family: 'Roboto Mono', monospace;
-    padding-top: 150px;
+    padding-top: 200px;
 }
 .cards {
     display: flex;
@@ -20,5 +20,12 @@
     text-align: center;
     padding: map-get($btn , padding );
     border: map-get($btn , radio );
-    margin: map-get($btn , margen );
+    margin: 80px;
+    transition: all 3s;
+}
+.card2{
+    transition: all 2s;
+}
+.card2:hover {
+    transform: scale(1.1);
 }

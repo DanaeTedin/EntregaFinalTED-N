@@ -3,14 +3,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Quicksand:wght@300&family=Raleway:ital,wght@0,100;1,100&family=Roboto+Mono:wght@100;200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/Style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="ProyectoArquitectura" content="Estudio de arquitectura con obras de gran envergadura">
-    <title>ProyectoArquitectura</title>
+    <meta name="EstudioArquitectura" content="Estudio de arquitectura dedicado a realizar planos y ejecutar obras">
+    <title>EstudioArquitectura</title>
 </head>
 <body>
     <header>
@@ -42,36 +44,92 @@
             </div>
         </nav>
     </header>
-    
     <main>
-        <div class="fotofondo2">
+        <div class="fotofondo2" data-aos="fade-up"
+        data-aos-duration="1000">
             <h1>PROYECTOS</h1>
         </div>
-        <div class="grid2">
-        <div class="hijo">
-            <h3 class="nombreproyecto">CENTRO HEYDAR ALIYEV, BAKÚ, AZERBAIYÁN</h3>
-            <img src="./IMG/b1.jpg" alt="CENTRO HEYDAR ALIYEV">
-            <img src="./IMG/b2.jpg" alt="CENTRO HEYDAR ALIYEV">
+    <div class="project">
+    <div class="contenedor5">
+        <figure>
+            <img 
+            src="./IMG/a1.jpg" alt="CENTRO HEYDAR ALIYEV">
+            <div class="capa">
+                <h3>CENTRO HEYDAR ALIYEV, BAKÚ, AZERBAIYÁN</h3>
+                <p>Centro cultural construido en la avenida de Heydar Aliyev, en la capital de Azerbaiyán, Bakú. Es una amplia estructura que incluye el centro de congresos, un museo, salas de exposiciones y oficinas administrativas.</p>
+            </div>
+        </figure>
         </div>
-        <div class="hijo1">
-            <h3 class="nombreproyecto">GALAXY SOHO, PEKÍN, CHINA</h3>
-            <img src="./IMG/c1.jpg" alt="GALAXY SOHO" class="img">
-            <img src="./IMG/c2.jpg" alt="GALAXY SOHO" class="img">
-        </div>
-        <div class="hijo2">
-            <h3 class="nombreproyecto">INNOVATION TOWER, HONG KONG</h3>
-            <img src="./IMG/d1.jpg" alt="INNOVATION TOWER">
-            <img src="./IMG/d2.jpg" alt="INNOVATION TOWER">
-        </div>
-        <div class="hijo3">
-            <h3 class="nombreproyecto">MUSEO MAXXI DE ROMA</h3>
-            <img src="./IMG/e1.jpg" alt="MUSEO MAXXI">
-            <img src="./IMG/e2.jpg" alt="MUSEO MAXXI">
-        </div>
-        <div class="hijo4">
-            <h3 class="nombreproyecto">CENTRO ACUÁTICO DE LONDRES</h3>
-            <img src="./IMG/f1.jpg" alt="CENTRO ACUÁTICO">
-            <img src="./IMG/f2.jpg" alt="CENTRO ACUÁTICO">
+        <div class="contenedor5">
+            <figure>
+                <img 
+                src="./IMG/e2.jpg" alt="MUSEO MAXXI">
+                <div class="capa">
+                    <h3>MUSEO MAXXI</h3>
+                    <p>Está concebido como un lugar de investigación multidisciplinar destinado a la innovación y experimentación en las artes y la arquitectura. La vocación de este museo es de ser no sólo un lugar de conservación y exposición del patrimonio, sino también un laboratorio de experimentación e innovación cultural, estudio, investigación y producción de contenidos estéticos de nuestro tiempo.</p>
+                </div>
+            </figure>
+            </div>
+            <div class="contenedor5">
+                <figure>
+                    <img 
+                    src="./IMG/a5.jpg" alt="CENTRO HEYDAR ALIYEV">
+                    <div class="capa">
+                        <h3>GALAXY SOHO, PEKIN CHINA</h3>
+                        <p>El edificio está situado en la esquina suroeste del Puente Chaoyangmen en la Segunda Circunvalación de Pekín y tiene un diseño curvilíneo que se compone de cuatro estructuras fluidas asimétricas. Cubre una superficie de 330 000 m². El diseño paramétrico del edificio se inspiró en los patios chinos clásicos. El complejo contiene tiendas, oficinas e instalaciones de ocio.</p>
+                    </div>
+                </figure>
+                </div>
+                <div class="contenedor5">
+                    <figure>
+                        <img 
+                        src="./IMG/f1.jpeg" alt="CENTRO ACUÁTICO DE LONDRES">
+                        <div class="capa">
+                            <h3>CENTRO ACUÁTICO DE LONDRES</h3>
+                            <p>Centro deportivo, y uno de los principales lugares de celebración de los Juegos Olímpicos y Paralímpicos de Londres 2012. Diseñado por la arquitecta Zaha Hadid, el centro está ubicado en el Parque Olímpico en Stratford en el este de Londres.</p>
+                        </div>
+                    </figure>
+                    </div>
+                    <div class="contenedor5">
+                        <figure>
+                            <img 
+                            src="./IMG/d1.jpg" alt="INNOVATION TOWER">
+                            <div class="capa">
+                                <h3>INNOVATION TOWER</h3>
+                                <p>La torre está localizada en el extremo noroeste del campus de la Universidad Politécnica en Hung Hom. Con su construcción, proporcionó 12 000 metros cuadrados de superficie operacional y es capaz de acoger aproximadamente a 1800 funcionarios y estudiantes.</p>
+                            </div>
+                        </figure>
+                        </div>
+                        <div class="contenedor5">
+                            <figure>
+                                <img 
+                                src="./IMG/g1.jpg" alt="AEROPUERTO INTERNACIONAL BEIJING">
+                                <div class="capa">
+                                    <h3>AEROPUERTO INTERNACIONAL BEIJING</h3>
+                                    <p>Desarrollado para aliviar la congestión en el aeropuerto existente de la capital, Beijing Daxing es un importante centro de transporte para la región con la mayor demanda mundial de viajes internacionales y está totalmente integrado en la red de transporte en expansión del país.</p>
+                                </div>
+                            </figure>
+                            </div>
+                            <div class="contenedor5">
+                                <figure>
+                                    <img 
+                                    src="./IMG/h1.jpg" alt="EDIFICIO CENTRAL DE BMW">
+                                    <div class="capa">
+                                        <h3>EDIFICIO CENTRAL DE BMW</h3>
+                                        <p>El Edificio central de BMW está situado en Leipzig (Alemania) y es una obra de Zaha Hadid y Patrik Schumacher construida entre 2001 y 2005 tras el concurso organizado por BMW para desarrollar un edificio como centro neurálgico del nuevo complejo para la fabricación de los vehículos de la Serie 3.</p>
+                                    </div>
+                                </figure>
+                                </div>
+                                <div class="contenedor5">
+                                    <figure>
+                                        <img 
+                                        src="./IMG/i1.jpg" alt="ESTACIÓN DE BOMBEROS">
+                                        <div class="capa">
+                                            <h3>ESTACIÓN DE BOMBEROS</h3>
+                                            <p>El edificio se compone de espacios para camiones, duchas y vestuarios, además de una sala de reuniones con cocina. La Estación de bomberos es una escultura de hormigón elaborada in situ, que contrasta con el orden rectangular de los pabellones vecinos como una explosión solidificada.</p>
+                                        </div>
+                                    </figure>
+                                    </div>
         </div>
         <footer class="piedepagina">
             <div><p>©2022 danaetedin, todos los derechos reservados </p>
@@ -81,5 +139,9 @@
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        </script>
 </body>
 </html>

@@ -15,10 +15,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 100px;
   color: #fff;
   font-family: "Roboto Mono", monospace;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 * {
@@ -43,30 +43,31 @@
 }
 
 /*    ---------Inicio-------- */
-.fotofondo2 {
-  background-image: url(../IMG/IMG1.jpg);
+.fotofondoindex {
+  background-image: url(../IMG/index.jpg);
   background-size: cover;
   width: 100%;
-  height: 500px;
+  height: 700px;
 }
 
-.fotofondo2 h1 {
+.fotofondoindex h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 200px;
   color: #fff;
   font-family: "Quicksand", sans-serif;
   padding-top: 130px;
 }
 
-.fotofondo2 p {
+.fotofondoindex p {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 60px;
   color: #fff;
   font-family: "Quicksand", sans-serif;
+  padding-bottom: 150px;
 }
 
 .frases p {
@@ -87,14 +88,81 @@
   margin-bottom: 100px;
 }
 
-.quienessomos {
-  background-image: url(../IMG/img1a.jpg);
-  background-size: cover;
+.contenedor6 {
   width: 100%;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+}
+
+.contenedor6 figure {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.contenedor6 figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.contenedor6 figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.contenedor6 figure:hover > img {
+  transform: scale(1.3);
+}
+
+.contenedor6 figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
+}
+
+.contenedor6 figure:hover > .capa h3 {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+.contenedor6 figure .capa h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 60px;
   font-family: "Quicksand", sans-serif;
-  padding: 5px 10px;
-  border: 10px;
+  margin-bottom: 170px;
+  transition: all 500ms ease-out;
+  margin-top: 20px;
+}
+
+.contenedor6 figure .capa p {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.card {
+  margin: 20px;
 }
 
 .card-body1 h5 {
@@ -119,12 +187,10 @@
 }
 
 .img {
-  margin: 2px;
+  margin: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   transition: all 2s;
-}
-
-.img1:hover {
-  transform: scale(1.2);
 }
 
 * {
@@ -164,47 +230,91 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 100px;
   color: #fff;
   font-family: "Roboto Mono", monospace;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
-.grid2 {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "hijo" "hijo1" "hijo2" "hijo3" "hijo4" "piedepagina";
-  margin-top: 30px;
+.project {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.hijo {
+.contenedor5 {
+  width: 1130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 15px;
+}
+
+.contenedor5 figure {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.contenedor5 figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.contenedor5 figure .capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
   text-align: center;
-  grid-area: hijo;
-  margin-top: 30px;
 }
 
-.hijo1 {
-  text-align: center;
-  grid-area: hijo1;
-  margin-top: 30px;
+.contenedor5 figure:hover > img {
+  transform: scale(1.3);
 }
 
-.hijo2 {
-  text-align: center;
-  grid-area: hijo2;
-  margin-top: 30px;
+.contenedor5 figure:hover > .capa {
+  opacity: 1;
+  visibility: visible;
 }
 
-.hijo3 {
-  text-align: center;
-  grid-area: hijo3;
-  margin-top: 30px;
+.contenedor5 figure:hover > .capa h3 {
+  margin-top: 150px;
+  margin-bottom: 20px;
 }
 
-.hijo4 {
-  text-align: center;
-  grid-area: hijo4;
-  margin-top: 30px;
+.contenedor5 figure .capa h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 170px;
+  transition: all 500ms ease-out;
+  margin-top: 20px;
+}
+
+.contenedor5 figure .capa p {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
 }
 
 * {
@@ -224,10 +334,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 100px;
   color: #fff;
-  padding-top: 150px;
-  font-family: "Quicksand", sans-serif;
+  padding-top: 200px;
+  font-family: "Roboto Mono", monospace;
 }
 
 .card-body h5 {
@@ -256,13 +366,18 @@
 .img-fluid {
   display: flex;
   align-content: center;
+  transition: all 500ms ease-out;
   padding: 5px 10px;
   border: 10px;
   margin: 20px;
 }
 
+.card-body figure:hover > .img-fluid {
+  transform: scale(1.3);
+}
+
 .fotofondo3 {
-  background-image: url(../IMG/EQUIPO.jpg);
+  background-image: url(../IMG/IMG1.jpg);
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -272,10 +387,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 80px;
+  font-size: 100px;
   color: white;
   font-family: "Roboto Mono", monospace;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .cards {
@@ -285,4 +400,14 @@
   text-align: center;
   padding: 5px 10px;
   border: 10px;
+  margin: 80px;
+  transition: all 3s;
+}
+
+.card2 {
+  transition: all 2s;
+}
+
+.card2:hover {
+  transform: scale(1.1);
 }

@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Quicksand:wght@300&family=Raleway:ital,wght@0,100;1,100&family=Roboto+Mono:wght@100;200&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/Style.css">
     
     <head>
@@ -44,7 +45,8 @@
         </nav>
     </header>
     <main>
-        <div class="fotofondo2">
+        <div class="fotofondoindex" data-aos="fade-up"
+        data-aos-duration="3000">
             <h1>ZAHA</h1>
             <p>ARCHITECTURE</p>
         </div>
@@ -53,23 +55,64 @@
                 Por un lado se trata de refugio, pero también se trata de placer”.</p>
                 <h3 class="blockquote-footer">ZAHA HADID</h3>
         </div>
-        <div class="quienessomos">
-        <div class="col-11">
-            <div class="card-body1">
-                <h5 class="card-title">¿QUIÉNES SOMOS?</h5>
-                <p class="card-text">Somos un equipo de arquitectos apasionados por el diseño y la arquitectura.
-                    Nos identificamos por realizar proyectos de calidad e innovación los cuales generen relación entre ideas, espacios y personas.</p>
+        <div class="contenedor6">
+            <figure>
+                <img 
+                src="./IMG/IMG1.jpg" alt="QUIENESSOMOS">
+                <div class="capa">
+                    <h3>¿QUIÉNES SOMOS?</h3>
+                    <p>Somos un equipo de arquitectos apasionados por el diseño y la arquitectura.
+                        Nos identificamos por realizar proyectos de calidad e innovación los cuales generen relación entre ideas, espacios y personas.</p>
+                </div>
+            </figure>
+            </div>
+        <div class="card-group">
+            <div class="card">
+            <img class="card-img-top" src="IMG/a3.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Textura</h5>
+                <p class="card-text">Generar características visuales desde lejos, como ventanas, curvas amplias, esquinas y vacíos.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="IMG/a1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Dinamismo</h5>
+                <p class="card-text">Espacios únicos pero a su vez dinámico, movimiento e interacción constante con todos los elementos que lo incluyen.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="IMG/a2.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Fluidez</h5>
+                <p class="card-text"> Organización de espacios interiores huyendo de la compartimentación rígida.</p>
+            </div>
             </div>
         </div>
+        <div class="card-group">
+            <div class="card">
+            <img class="card-img-top" src="IMG/a5.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Curvas</h5>
+                <p class="card-text">Edificaciones de formas dramáticas, impresionantes y fuera de lo común.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="IMG/a6.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Iluminación</h5>
+                <p class="card-text">La iluminación en la arquitectura nos permite destacar los elementos, jugar con la volumetría, las texturas y el color, y aportar sensaciones.</p>
+            </div>
+            </div>
+            <div class="card">
+            <img class="card-img-top" src="IMG/a4.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Geometría orgánica</h5>
+                <p class="card-text"> Líneas inspiradas en formas orgánicas, como árboles, hojas, cascadas, etc.</p>
+            </div>
+            </div>
         </div>
-        <div>
-            <img src="./IMG/a1.jpg" alt="edificio moderno" class="img img1">
-            <img src="./IMG/a2.jpg" alt="edificio moderno" class="img img1">
-            <img src="./IMG/a3.jpg" alt="edificio moderno" class="img img1">
-            <img src="./IMG/a4.jpg" alt="edificio moderno" class="img img1">
-            <img src="./IMG/a5.jpg" alt="edificio zaha hadid" class="img img1">
-            <img src="./IMG/a6.jpg" alt="edificio zaha hadid" class="img img1">
-        </div>
+
     </main>
     <aside>
 
@@ -81,5 +124,9 @@
     </footer>
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+    </script>
 </body>
 </html>
